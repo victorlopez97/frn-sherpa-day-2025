@@ -1,0 +1,17 @@
+@use '@npm-bbta/bbog-dig-dt-sherpa-lib/dist/collection/assets/fonts/fonts' with (
+  $font-family-path: '@npm-bbta/bbog-dig-dt-sherpa-lib/dist/collection'
+);
+
+@use '@npm-bbta/bbog-dig-dt-sherpa-lib/dist/collection/assets/fonts/icons' with (
+  $icons-path: '@npm-bbta/bbog-dig-dt-sherpa-lib/dist/collection'
+);
+
+* {
+  padding: var(--sp-spacing-0);
+  margin: var(--sp-spacing-0);
+  font-family: Roboto-Regular, Kiffo-Regular, "Montserrat-Regular", sans-serif;
+}
+
+body {
+  background: var(--sp-midnight-50);
+}
